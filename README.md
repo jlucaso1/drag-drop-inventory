@@ -3,4 +3,5 @@ This inventory system features dragging a dropping with Godot's built-in drag an
 
 ## Assets Sources
 https://zegley.itch.io/2d-platformermetroidvania-asset-pack
+
 https://alexs-assets.itch.io/16x16-rpg-item-pack
