@@ -20,6 +20,11 @@ func _can_drop_data(_at_position: Vector2, data: Variant) -> bool:
 				return true
 			else:
 				# Swap two items
+				var parentSource: InventorySlot = get_child(0).get_parent()
+				var parentTarget: InventorySlot = data.get_parent()
+				
+				if parentSource.type == parentTarget.type: return true
+				
 				return get_child(0).type == data.type
 		else:
 			return data.type == type
